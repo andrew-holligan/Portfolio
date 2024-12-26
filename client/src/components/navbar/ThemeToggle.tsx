@@ -11,12 +11,11 @@ function ThemeToggle({ className }: { className?: string }) {
   const handleSetThemeLight = () => setTheme(ThemeEnum.LIGHT);
 
   return (
-    <button onClick={isLightTheme ? handleSetThemeDark : handleSetThemeLight}>
-      {isLightTheme ? (
-        <Sun className={className} />
-      ) : (
-        <Moon className={className} />
-      )}
+    <button
+      onClick={isLightTheme ? handleSetThemeDark : handleSetThemeLight}
+      className={className}
+    >
+      {isLightTheme ? <Sun /> : <Moon />}
     </button>
   );
 }
