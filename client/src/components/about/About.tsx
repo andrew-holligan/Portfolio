@@ -1,4 +1,4 @@
-import ProfileAsset from "../../assets/profile.webp";
+import ProfileAsset from "../../assets/about/profile.webp";
 
 function About() {
   return (
