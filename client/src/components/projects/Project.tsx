@@ -1,4 +1,7 @@
+import { ExternalLink, Star } from "lucide-react";
+
 function Project({
+  star,
   title,
   image,
   description,
@@ -6,24 +9,33 @@ function Project({
   code,
   tags,
 }: {
+  star?: boolean;
   title: string;
-  image: string;
+  image?: string;
   description: string[];
   website?: string;
   code?: string;
   tags: string[];
 }) {
   return (
-    <article className="w-full space-y-4 rounded-xl bg-card p-4 md:max-w-[35.5rem]">
-      <img
-        src={image}
-        alt={title}
-        className="rounded-xl shadow-lg shadow-accent"
-      />
+    <article className="relative w-full space-y-4 rounded-xl bg-card p-4 md:max-w-[35.5rem]">
+      {star && (
+        <span className="absolute right-[-8px] top-[-8px] animate-pulse rounded-full bg-yellow-500 p-2">
+          <Star size={18} />
+        </span>
+      )}
 
-      <h3 className="w-1/2 border-b-4 border-border p-2 text-2xl font-semibold text-foreground">
-        {title}
-      </h3>
+      {image && (
+        <img
+          src={image}
+          alt={title}
+          className="rounded-xl shadow-lg shadow-accent"
+        />
+      )}
+
+      <h3 className="p-2 text-2xl font-semibold text-foreground">{title}</h3>
+
+      <hr className="h-1 w-1/2 bg-border" />
 
       <div className="space-y-2">
         {description.map((paragraph, index) => (
@@ -44,17 +56,26 @@ function Project({
         ))}
       </ul>
 
-      <div className="flex justify-end gap-12">
+      <div className="flex justify-end gap-4">
         {website && (
           <a
             href={website}
-            className="rounded-full bg-primary px-4 py-1 text-primary-foreground"
+            className="flex items-center gap-2 rounded-full bg-primary px-4 py-1 text-primary-foreground"
           >
             Website
+            <ExternalLink size={18} />
           </a>
         )}
 
-        {code && <a href={code}>Code</a>}
+        {code && (
+          <a
+            href={code}
+            className="flex items-center gap-2 rounded-full bg-primary px-4 py-1 text-primary-foreground"
+          >
+            Code
+            <ExternalLink size={18} />
+          </a>
+        )}
       </div>
     </article>
   );

@@ -3,7 +3,7 @@ import SmallScreenLinks from "./SmallScreenLinks";
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 flex h-16 items-center justify-between border-b-4 border-border bg-background px-12">
+    <nav className="sticky top-0 z-50 flex h-16 items-center justify-between border-b-4 border-border bg-background px-12">
       {/* NAME */}
       <a href="/" className="text-lg font-semibold text-foreground">
         Andrew Holligan
