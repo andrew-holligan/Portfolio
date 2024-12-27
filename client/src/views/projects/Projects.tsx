@@ -3,15 +3,19 @@ import D2TrackerAsset from "../../assets/projects/d2tracker.png";
 import ReactTodoListAsset from "../../assets/projects/react-todolist.png";
 import SortingVisualisedAsset from "../../assets/projects/sorting-visualised.png";
 
+import HeadingUnderline from "../../components/navbar/HeadingUnderline";
 import Project from "./Project";
 
 function Projects() {
   return (
     <section id="projects" className="my-32 flex flex-col gap-12 px-12 py-24">
       {/* HEADING */}
-      <h2 className="w-fit border-b-4 border-border p-2 text-4xl text-foreground max-xl:text-3xl max-md:text-2xl max-sm:text-xl">
-        Projects
-      </h2>
+      <header className="space-y-2">
+        <h2 className="p-2 text-4xl text-foreground max-xl:text-3xl max-md:text-2xl max-sm:text-xl">
+          Projects
+        </h2>
+        <HeadingUnderline />
+      </header>
 
       {/* PROJECTS */}
       <ul className="flex flex-wrap gap-12">

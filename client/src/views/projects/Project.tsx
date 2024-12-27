@@ -18,7 +18,7 @@ function Project({
   tags: string[];
 }) {
   return (
-    <article className="relative w-full space-y-4 rounded-xl bg-card p-4 md:max-w-[35.5rem]">
+    <article className="relative w-full space-y-4 rounded-xl border-b-4 border-l-4 border-border bg-card p-4 md:max-w-[35.5rem]">
       {star && (
         <span className="absolute right-[-8px] top-[-8px] animate-pulse rounded-full bg-yellow-500 p-2">
           <Star size={18} />
@@ -33,9 +33,9 @@ function Project({
         />
       )}
 
-      <h3 className="p-2 text-2xl font-semibold text-foreground">{title}</h3>
+      <h3 className="text-2xl font-semibold text-foreground">{title}</h3>
 
-      <hr className="h-1 w-1/2 border-none bg-border text-border" />
+      <hr className="h-1 w-1/2 rounded-full border-none bg-border text-border" />
 
       <div className="space-y-2">
         {description.map((paragraph, index) => (
