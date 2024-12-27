@@ -10,7 +10,12 @@ function ProjectList() {
     {
       title: "GridSweeper",
       image: GridSweeperAsset,
-      description: ["Online multiplayer web game inspired by Minesweeper"],
+      description: [
+        "Online multiplayer web game inspired by Minesweeper",
+        "Create custom grids which other players can play",
+        "Create and join lobbies to play with friends",
+        "Supporting private, coop, and competitive game modes",
+      ],
       website: "https://gridsweeper.net/",
       tags: ["React", "TailwindCSS", "TypeScript", "PostgreSQL", "ASP.NET"],
     },
@@ -19,6 +24,7 @@ function ProjectList() {
       image: D2TrackerAsset,
       description: [
         "Stat tracker site for Destiny 2 which displays and compares player stats",
+        "View and filter a players previous activities",
       ],
       website: "https://d2tracker.net/",
       tags: ["React", "TailwindCSS", "TypeScript", "Bungie API"],
@@ -36,6 +42,8 @@ function ProjectList() {
       image: SortingVisualisedAsset,
       description: [
         "Visualisation of sorting algorithms, developed in pure HTML, CSS and JavaScript",
+        "Change the speed and size of the visualisation",
+        "Includes information on each sorting algorithm",
       ],
       website: "https://sortingvisualised.netlify.app/",
       code: "https://github.com/andrew-holligan/SortingVisualised",

@@ -9,7 +9,7 @@ function Timeline() {
       title: "Software Engineer @ Glasgow University Software Service",
       subtitle: "10/2024 - Present",
       content: [
-        "Implemented continuous development pipeline with GitLab CI/CD on DigitalOcean droplets",
+        "Implemented continuous development pipeline with GitLab CI/CD on DigitalOcean Ubuntu droplets",
       ],
     },
     {
