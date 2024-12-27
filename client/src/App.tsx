@@ -5,6 +5,7 @@ import About from "./views/about/About";
 import Projects from "./views/projects/Projects";
 import Journey from "./views/journey/Journey";
 import Contact from "./views/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function AppContent() {
   return (
@@ -17,6 +18,8 @@ function AppContent() {
         <Journey />
         <Contact />
       </main>
+
+      <Footer />
     </>
   );
 }
