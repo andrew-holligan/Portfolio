@@ -35,7 +35,7 @@ function Project({
 
       <h3 className="p-2 text-2xl font-semibold text-foreground">{title}</h3>
 
-      <hr className="h-1 w-1/2 bg-border" />
+      <hr className="h-1 w-1/2 border-none bg-border text-border" />
 
       <div className="space-y-2">
         {description.map((paragraph, index) => (

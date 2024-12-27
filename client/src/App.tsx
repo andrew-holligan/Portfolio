@@ -1,8 +1,9 @@
 import { ThemeProvider } from "./contexts/ThemeProvider";
 
 import Navbar from "./components/navbar/Navbar";
-import About from "./components/about/About";
-import Projects from "./components/projects/Projects";
+import About from "./views/about/About";
+import Projects from "./views/projects/Projects";
+import Journey from "./views/journey/Journey";
 
 function AppContent() {
   return (
@@ -12,6 +13,7 @@ function AppContent() {
       <main className="container">
         <About />
         <Projects />
+        <Journey />
       </main>
     </>
   );

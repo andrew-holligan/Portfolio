@@ -24,11 +24,11 @@ function SmallScreenLinks({ className }: { className?: string }) {
           <ul className="flex h-[calc(100vh-68px)] flex-col items-center justify-center gap-8">
             <li>
               <a
-                href="#about"
+                href="#"
                 onClick={handleSetIsClose}
                 className="text-2xl font-medium text-muted-foreground transition-colors hover:text-foreground"
               >
-                About
+                Home
               </a>
             </li>
             <li>

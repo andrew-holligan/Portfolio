@@ -3,7 +3,10 @@ import SmallScreenLinks from "./SmallScreenLinks";
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 flex h-16 items-center justify-between border-b-4 border-border bg-background px-12">
+    <nav
+      id="navbar"
+      className="sticky top-0 z-50 flex h-16 items-center justify-between border-b-4 border-border bg-background px-12"
+    >
       {/* NAME */}
       <a href="/" className="text-lg font-semibold text-foreground">
         Andrew Holligan
@@ -14,10 +17,10 @@ function Navbar() {
         <ul className="flex gap-8 max-md:hidden">
           <li>
             <a
-              href="#about"
+              href="#"
               className="font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              About
+              Home
             </a>
           </li>
           <li>

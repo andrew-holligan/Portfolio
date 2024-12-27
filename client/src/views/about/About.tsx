@@ -3,7 +3,7 @@ import ProfileAsset from "../../assets/about/profile.webp";
 function About() {
   return (
     <section
-      id="#about"
+      id="about"
       className="flex h-[calc(100vh-136px)] items-center justify-between gap-12 px-12 max-md:flex-col max-md:justify-center"
     >
       {/* INTRO */}

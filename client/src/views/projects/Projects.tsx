@@ -7,7 +7,7 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <section id="#projects" className="flex flex-col gap-12 px-12 py-60">
+    <section id="projects" className="my-32 flex flex-col gap-12 px-12 py-24">
       {/* HEADING */}
       <h2 className="w-1/2 border-b-4 border-border p-2 text-4xl text-foreground max-xl:text-3xl max-md:text-2xl max-sm:text-xl">
         Projects
