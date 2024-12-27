@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import About from "./views/about/About";
 import Projects from "./views/projects/Projects";
 import Journey from "./views/journey/Journey";
+import Contact from "./views/contact/Contact";
 
 function AppContent() {
   return (
@@ -14,6 +15,7 @@ function AppContent() {
         <About />
         <Projects />
         <Journey />
+        <Contact />
       </main>
     </>
   );

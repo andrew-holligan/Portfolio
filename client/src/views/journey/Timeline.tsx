@@ -43,14 +43,7 @@ function Timeline() {
   return (
     <TimelineWrapper>
       {items.map((item, index) => (
-        <TimelineItem
-          key={index}
-          title={item.title}
-          subtitle={item.subtitle}
-          image={item.image}
-          content={item.content}
-          reverse={index % 2 === 0}
-        />
+        <TimelineItem key={index} {...item} reverse={index % 2 === 0} />
       ))}
     </TimelineWrapper>
   );
