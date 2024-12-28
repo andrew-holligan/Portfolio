@@ -5,7 +5,7 @@ function Footer() {
         Built with love by Andrew. This website's source code can be located{" "}
         <a
           href="https://github.com/andrew-holligan/Portfolio"
-          className="font-medium text-secondary-foreground transition-colors hover:text-secondary"
+          className="font-medium text-primary transition-colors hover:text-primary-foreground"
         >
           here
         </a>
