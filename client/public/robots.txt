@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://d2tracker.net/sitemap.xml

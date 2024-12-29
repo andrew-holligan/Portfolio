@@ -38,6 +38,11 @@ function Timeline() {
       subtitle: "01/2023 - Present",
       content: ["Teaching Python/HTML/CSS/JavaScript to pupils"],
     },
+    {
+      title: "MSci Computing Science @ University of Glasgow",
+      subtitle: "09/2022 - 05/2027 (Expected)",
+      content: ["Started degree in Computing Science"],
+    },
   ];
 
   return (
