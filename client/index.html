@@ -10,6 +10,14 @@
     <title>Andrew Holligan</title>
   </head>
   <body class="bg-background">
+    <!-- NETLIFY -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" autocomplete="off" />
+      <input type="email" name="email" autocomplete="off" />
+      <input type="text" name="subject" autocomplete="off" />
+      <textarea name="message"></textarea>
+    </form>
+
     <noscript>You need to enable JavaScript for this site to work.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

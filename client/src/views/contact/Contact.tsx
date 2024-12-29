@@ -1,14 +1,18 @@
 import { Mail, Github, Linkedin } from "lucide-react";
 
 import Heading from "../../components/heading/Heading";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <section id="contact" className="my-32 flex flex-col gap-12 px-12 py-24">
-      <div className="space-y-8 rounded-2xl bg-secondary p-4">
+    <section
+      id="contact"
+      className="my-32 flex flex-col gap-12 px-12 py-24 max-md:px-6"
+    >
+      <div className="space-y-8 rounded-2xl border-b-4 border-l-4 border-border bg-card p-4">
         <Heading title={"Contact"} />
 
-        <ul className="flex flex-wrap gap-8 p-2">
+        <ul className="flex flex-wrap justify-center gap-8 p-2">
           <li>
             <a
               href="mailto:andrew@andrewholligan.co.uk"
@@ -34,6 +38,8 @@ function Contact() {
             </a>
           </li>
         </ul>
+
+        <ContactForm />
       </div>
     </section>
   );
