@@ -10,6 +10,7 @@ function Timeline() {
       subtitle: "10/2024 - Present",
       content: [
         "Implemented continuous development pipeline with GitLab CI/CD on DigitalOcean Ubuntu droplets",
+        "Sole developer for a digital tool project structuring investment decisions, responsible for full-stack development using Django",
       ],
     },
     {
@@ -36,7 +37,9 @@ function Timeline() {
     {
       title: "Coding Tutor @ Code Cadets",
       subtitle: "01/2023 - Present",
-      content: ["Teaching Python/HTML/CSS/JavaScript to pupils"],
+      content: [
+        "Teaching Python, HTML, CSS, and JavaScript to young learners, simplifying concepts for better understanding",
+      ],
     },
     {
       title: "MSci Computing Science @ University of Glasgow",
