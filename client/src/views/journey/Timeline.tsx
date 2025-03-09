@@ -1,4 +1,5 @@
 import TennentsioAsset from "../../assets/journey/tennentsio.png";
+import WhotookmytennentsAsset from "../../assets/journey/whotookmytennents.png";
 
 import TimelineWrapper from "./TimelineWrapper";
 import TimelineItem from "./TimelineItem";
@@ -6,11 +7,19 @@ import TimelineItem from "./TimelineItem";
 function Timeline() {
   const items = [
     {
+      title: "Duck Sauce Jam",
+      subtitle: "02/2025",
+      image: WhotookmytennentsAsset,
+      content: [
+        "Developed an online multiplayer web game using a custom Entity Component System",
+      ],
+    },
+    {
       title: "Software Engineer @ Glasgow University Software Service",
       subtitle: "10/2024 - Present",
       content: [
-        "Implemented continuous development pipeline with GitLab CI/CD on DigitalOcean Ubuntu droplets",
-        "Sole developer for a digital tool project structuring investment decisions, responsible for full-stack development using Django",
+        "Led initial development of a policy comparison tool, responsible for full-stack development using Django",
+        "Implemented the continuous development pipeline for the tool with GitLab CI/CD on DigitalOcean Ubuntu droplets, aiding future development",
       ],
     },
     {
@@ -19,7 +28,7 @@ function Timeline() {
       image: TennentsioAsset,
       content: [
         "Developed backend for online multiplayer web game using Colyseus.js for lobby management and Matter.js for physics simulation",
-        "Team came runners-up in challenge",
+        "Team secured runner-up position for the challenge",
       ],
     },
     {
@@ -39,6 +48,7 @@ function Timeline() {
       subtitle: "01/2023 - Present",
       content: [
         "Teaching Python, HTML, CSS, and JavaScript to young learners, simplifying concepts for better understanding",
+        "Led code-along sessions for a simple JavaScript clicker game, fostering a fun and engaging learning experience",
       ],
     },
     {

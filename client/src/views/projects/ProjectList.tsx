@@ -17,7 +17,14 @@ function ProjectList() {
         "Supporting private, coop, and competitive game modes",
       ],
       website: "https://gridsweeper.net/",
-      tags: ["React", "TailwindCSS", "TypeScript", "PostgreSQL", "ASP.NET"],
+      tags: [
+        "React",
+        "ASP.NET",
+        "TailwindCSS",
+        "TypeScript",
+        "EntityFrameworkCore",
+        "PostgreSQl",
+      ],
     },
     {
       title: "D2Tracker",
