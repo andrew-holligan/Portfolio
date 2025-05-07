@@ -16,10 +16,11 @@ function Timeline() {
     },
     {
       title: "Software Engineer @ Glasgow University Software Service",
-      subtitle: "10/2024 - Present",
+      subtitle: "10/2024 - 05/2025",
       content: [
         "Led initial development of a policy comparison tool, responsible for full-stack development using Django",
         "Implemented the continuous development pipeline for the tool with GitLab CI/CD on DigitalOcean Ubuntu droplets, aiding future development",
+        "Used Cloudflare D1, Workflows, and Workers AI to develop a distributed scraper with two independent workflows for site crawling and data extraction",
       ],
     },
     {
