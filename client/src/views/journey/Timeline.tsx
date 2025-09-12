@@ -7,6 +7,18 @@ import TimelineItem from "./TimelineItem";
 function Timeline() {
   const items = [
     {
+      title: "Intern Developer @ GuitarGuitar",
+      subtitle: "06/2025 - Present",
+      content: [
+        "Designed and developed a modern blog platform with a new tagging system, CMS integration, and improved user experience",
+        "Created new database tables, models, services, and controllers to fully isolate the new blog from the old, enabling seamless switching via feature flags for backwards compatibility",
+        "Wrote SQL scripts to accurately migrate thousands of legacy blog articles into the new database tables",
+        "Built an area on the admin portal for the new blog, allowing editors to manage articles, categories, tags, and events",
+        "Integrated the new blog with the existing CMS, giving editors full control over articles and the blog homepage, and extended the CMS with custom blog sections",
+        "Implemented a shared banner image system to enable image reuse across articles, reducing storage",
+      ],
+    },
+    {
       title: "Duck Sauce Jam",
       subtitle: "02/2025",
       image: WhotookmytennentsAsset,
@@ -21,6 +33,7 @@ function Timeline() {
         "Led initial development of a policy comparison tool, responsible for full-stack development using Django",
         "Implemented the continuous development pipeline for the tool with GitLab CI/CD on DigitalOcean Ubuntu droplets, aiding future development",
         "Used Cloudflare D1, Workflows, and Workers AI to develop a distributed scraper with two independent workflows for site crawling and data extraction",
+        "Optimised performance by trimming unnecessary HTML elements to reduce the context window, and enabling user-defined filters to enqueue URLs based on specific criteria",
       ],
     },
     {
