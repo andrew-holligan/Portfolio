@@ -8,25 +8,6 @@ import Project from "./Project";
 function ProjectList() {
   const items = [
     {
-      title: "GridSweeper",
-      image: GridSweeperAsset,
-      description: [
-        "Online multiplayer web game inspired by Minesweeper",
-        "Create custom grids which other players can play",
-        "Create and join lobbies to play with friends",
-        "Supporting private, coop, and competitive game modes",
-      ],
-      website: "https://gridsweeper.net/",
-      tags: [
-        "React",
-        "ASP.NET",
-        "TailwindCSS",
-        "TypeScript",
-        "EntityFrameworkCore",
-        "PostgreSQl",
-      ],
-    },
-    {
       title: "D2Tracker",
       image: D2TrackerAsset,
       description: [
@@ -35,6 +16,25 @@ function ProjectList() {
       ],
       website: "https://d2tracker.net/",
       tags: ["React", "TailwindCSS", "TypeScript", "Bungie API"],
+    },
+    {
+      title: "GridSweeper",
+      image: GridSweeperAsset,
+      description: [
+        "Online multiplayer web game inspired by Minesweeper",
+        "Create custom grids which other players can play",
+        "Create and join lobbies to play with friends",
+        "Supporting private, coop, and competitive game modes",
+      ],
+      // website: "https://gridsweeper.net/",
+      tags: [
+        "React",
+        "ASP.NET",
+        "TailwindCSS",
+        "TypeScript",
+        "EntityFrameworkCore",
+        "PostgreSQl",
+      ],
     },
     // {
     //   title: "React-TodoList",
@@ -52,7 +52,7 @@ function ProjectList() {
         "Change the speed and size of the visualisation",
         "Includes information on each sorting algorithm",
       ],
-      website: "https://sortingvisualised.netlify.app/",
+      // website: "https://sortingvisualised.netlify.app/",
       code: "https://github.com/andrew-holligan/SortingVisualised",
       tags: ["HTML", "CSS", "JavaScript"],
     },
