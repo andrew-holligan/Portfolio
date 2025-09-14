@@ -15,7 +15,7 @@ function About() {
           Andrew Holligan
         </h1>
         <h3 className="text-lg text-muted-foreground max-xl:text-base max-md:text-sm">
-          3rd Year MSci Student | Full-Stack Developer
+          4th Year MSci Student | Full-Stack Developer
         </h3>
       </article>
 
